@@ -1,0 +1,9 @@
+
+// Solves toolbar height
+// toolbar cannot auto-calculate height during page load
+// since IONIC hides the component
+
+.e-toolbar-wrapper { 
+    height: 42px !important; 
+} 
+

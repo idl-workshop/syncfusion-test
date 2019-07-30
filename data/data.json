@@ -1,0 +1,376 @@
+{
+    "_id": "5ca801dbcff2700446411616",
+    "enabled": true,
+    "project": "5cc43d5cbf69a1d235502daf",
+    "version": "1556537992099",
+    "name": "Clothes & Bags",
+    "img": "https://s3.amazonaws.com/idls-media/cycle-2.jpg",
+    "text": "consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+    "stages": [
+        {
+            "id": 1,
+            "name": "Mission & Crew",
+            "steps": [
+                {
+                    "id": 1,
+                    "name": "Welcome",
+                    "parts": [
+                        {
+                            "type": "image",
+                            "data": {
+                                "label": "Crew Name",
+                                "note": "Give your crew a special name, like Interplanetary Explorers or SuperSpaceTeam",
+                                "src": "https://s3.amazonaws.com/idls-media/cycle-2.jpg"
+                            }
+                        },
+                        {
+                            "type": "video",
+                            "data": {
+                                "src": "https://fast.wistia.net/embed/iframe/ubzc4b7a24"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "# An h1 header\r\n\r\nParagraphs are separated by a blank line.\r\n\r\n2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists\r\nlook like:\r\n\r\n  * this one\r\n  * that one\r\n  * the other one\r\n\r\nNote that --- not considering the asterisk --- the actual text\r\ncontent starts at 4-columns in.\r\n\r\n> Block quotes are\r\n> written like so.\r\n>\r\n> They can span multiple paragraphs,\r\n> if you like.\r\n\r\nUse 3 dashes for an em-dash. Use 2 dashes for ranges (ex., \"it's all\r\nin chapters 12--14\"). Three dots ... will be converted to an ellipsis.\r\nUnicode is supported.\r\n"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Crew Setup",
+                    "parts": [
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "text",
+                                "label": "Crew Name",
+                                "note": "Give your crew a special name, like Interplanetary Explorers or SuperSpaceTeam",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "text",
+                                "label": "Crew Members",
+                                "note": "Enter the first names of your team members",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "photoCapture",
+                            "data": {
+                                "id": "teamLogo",
+                                "label": "Crew Logo",
+                                "note": "Draw and color a logo for your team, then upload it here, or choose from these options",
+                                "choose": "yes",
+                                "default": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Build an E.E.V.",
+            "steps": [
+                {
+                    "id": 1,
+                    "name": "E.E.V. Specs",
+                    "parts": [
+                        {
+                            "type": "video",
+                            "data": {
+                                "src": "https://fast.wistia.net/embed/iframe/ubzc4b7a24"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Assembly",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "We’ve lost our signal, but a few pictures and video clips made it through.  Do your best to figure it out, cadets!  "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Report Back",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Mission Control must confirm you have a working vehicle.  Record a video of your chassis moving on its own and upload it here. "
+                            }
+                        },
+                        {
+                            "type": "videoCapture",
+                            "data": {
+                                "id": "workingVehicle",
+                                "label": "Video your Working Vehicle",
+                                "note": "Box for uploading video of the moving car."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Customize",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Your video has been received!  You have successfully built a chassis for exploring Proxima Centauri B.  You can now either "
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Customize the E.E.V.",
+                    "canSkip": "true",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "IDL Cadets, you can also now customize your vehicle. You can make it a cargo transport vehicle -- to help carry equipment, a weather research vehicle-- to study climate and weather systems, or a mapping and reconnaissance vehicle, to explore and map the planet surface, or a simple planetary rover -- for transporting cadets and officers.  Please select a vehicle type, create a drawing of your design or plans, and then upload them to headquarters."
+                            }
+                        },
+                        {
+                            "type": "photoCapture",
+                            "data": {
+                                "id": "customizedVehicle",
+                                "label": "Photo your Customized Vehicle Plan",
+                                "note": "Take a photo of your drawing."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Predict Speed",
+            "steps": [
+                {
+                    "id": 1,
+                    "name": "Speed Requirements",
+                    "parts": [
+                        {
+                            "type": "video",
+                            "data": {
+                                "src": "https://fast.wistia.net/embed/iframe/ubzc4b7a24"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Sync E.E.V.'s",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Your Mission Commander will guide you through a synchronization test."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Prediction Test 1",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "The E.E.V.’s are not synchronized"
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "boolean",
+                                "label": "Did your car land on the dot?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Distance travelled",
+                                "note": "How far did your vehicle travel, in centimeters?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "text",
+                                "label": "Improve your prediction",
+                                "note": "How could you come up with a better way to predict how far your vehicle will travel?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "multiline",
+                                "label": "Describe your method",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "photoCapture",
+                            "data": {
+                                "id": "predictionPhotos",
+                                "label": "Photos for your Mission Commander",
+                                "note": "Upload any pictures, charts, figures or video that the Mission Commander has requested.",
+                                "button": "Send Photo to Mission Command"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Prediction Test 2",
+                    "parts": [
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Collect precise data on vehicle speeds by conducting a series of tests and comparing results."
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 1",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 2",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 3",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 4",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 5",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Now make a prediction: How far will your vehicle travel on Trial 6?"
+                            }
+                        },
+                        {
+                            "type": "input",
+                            "data": {
+                                "type": "number",
+                                "label": "Trial 6",
+                                "note": "How far did your vehicle travel, in centimeters, in 15 seconds?",
+                                "default": ""
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "RATIO TABLE. Using your data from TEST TWO, fill out the following Ratio Table and predict how far the car will go in different times."
+                            }
+                        },
+                        {
+                            "type": "editableTable",
+                            "data": {
+                                "content": "RATIO TABLE. Using your data from TEST TWO, fill out the following Ratio Table and predict how far the car will go in different times."
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "data": {
+                                "type": "markdown",
+                                "content": "Use your Mission Command charts to make predictions for greater and greater distances and times. "
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Emergency Planning",
+            "steps": [
+                {
+                    "id": 1,
+                    "name": "TK"
+                },
+                {
+                    "id": 2,
+                    "name": "TK"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Explore the Planet",
+            "steps": [
+                {
+                    "id": 1,
+                    "name": "Prepare E.E.V."
+                },
+                {
+                    "id": 2,
+                    "name": "TK"
+                }
+            ]
+        }
+    ],
+    "dateCreated": "2019-05-01T11:50:42.327Z",
+    "dateModified": "2019-05-06T11:50:42.327Z"
+}
