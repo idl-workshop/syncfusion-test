@@ -15,6 +15,8 @@ import { PageService, SortService, FilterService, EditService, ToolbarService } 
 import { RichTextEditorModule } from '@syncfusion/ej2-angular-richtexteditor';
 import { RichTextEditorModel, RichTextEditorAllModule } from '@syncfusion/ej2-angular-richtexteditor';
 
+import { FileManagerModule } from '@syncfusion/ej2-angular-filemanager';
+
 // SyncFusion / DataGrid
 import { GridModule, DetailRowService } from '@syncfusion/ej2-angular-grids';
 
@@ -40,6 +42,9 @@ import { DataGridComponent } from './data-grid/data-grid.component';
 
         // DataGrid
         GridModule,
+
+        // FileManager
+        FileManagerModule,
 
         // UploaderModule,
         // FileManagerAllModule,
